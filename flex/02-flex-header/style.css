@@ -2,9 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 8px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -13,6 +12,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 5px;
 }
 
 ul {
@@ -21,15 +21,16 @@ ul {
   display: flex;
   margin: 0px;
   padding: 0px;
-  gap: 8px;
+  gap: 5px;
 }
 
 a {
-  color: fuchsia;
-  font-weight: bold;
   font-size: 22px;
   background: white;
   padding: 8px;
+  color: blue;
+  font-weight: bold;
+  margin: 20px;
   /* this removes the line under the links */
   text-decoration: none;
 }
